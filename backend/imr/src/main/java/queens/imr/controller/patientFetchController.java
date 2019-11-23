@@ -1,6 +1,7 @@
 package queens.imr.controller;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -33,6 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import queens.imr.db.Store;
+import queens.imr.entitiy.Notes;
 import queens.imr.entitiy.Patient;
 import queens.imr.config.UserDAO;
 
@@ -213,6 +215,40 @@ public class patientFetchController
 			return new ResponseEntity<String>("Data could not be uploaded!!! Error in fetching the AI urls", HttpStatus.INTERNAL_SERVER_ERROR);		
 		}
 					
+	}
+	
+	@ApiOperation(value = "Get all notes", response = ResponseEntity.class)		  
+	@RequestMapping(value = "/getNotes", method = RequestMethod.GET)
+	@ResponseBody ResponseEntity<String>  getAllNotes(HttpEntity<String> httpEntity) {
+		
+		LOGGER.info("\n--------------Get All Notes  API invoked------------");
+		String token = "kauveryhealthcare.com";
+		LOGGER.info("Token -- "+token.toString());
+		String templateName = tenant.get(token);
+		if (templateName != null && !StringUtils.isEmpty(token)) 
+		{				
+			dbTemplate = userDAO.getTemplate(templateName);
+			if(dbTemplate ==null) 
+				{
+				throw new NullPointerException();
+				}
+			LOGGER.info("\nSetting up DB template");
+			store.setTemplate(dbTemplate);	
+			List<Notes> notesList = store.findAllNotes();
+			if(notesList !=null)
+			{
+	        store.setTemplate(null); 
+	        return new ResponseEntity<String>(notesList.toString(), HttpStatus.OK);
+			}	
+			LOGGER.info("\n--------------Queued data API completed ------------");
+
+		} 
+		else 
+		{
+			LOGGER.error("Error while reading resource details,  ");
+		}	
+		store.setTemplate(null); 
+		return new ResponseEntity<String>("{\"OutputDetails\":[]}", HttpStatus.OK);
 	}
 
 }
