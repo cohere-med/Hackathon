@@ -257,6 +257,16 @@ public class Store
 			LOGGER.error("Report couldnot be exported by the JasperExportManager");			
 			return  new ResponseEntity<String>("Report couldnot be exported by the JasperExportManager", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
+		
+		private void findAllNotes() 
+		{
+
+			String getRequestQry = "select * from queens.progress_notes";
+			LOGGER.info(getRequestQry);
+			return db.queryForObject(getRequestQry, new NotesMapper());
+			
+			
+		}
 	}
 	
 }

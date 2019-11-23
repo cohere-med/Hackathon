@@ -32,25 +32,50 @@
     },
     {
       "name": "templates",
-      "type": "queens.imr.controller.ReadJsonFiles",
-      "sourceType": "queens.imr.controller.ReadJsonFiles"
+      "type": "queens.imr.controller.patientFetchController",
+      "sourceType": "queens.imr.controller.patientFetchController"
     },
     {
       "name": "templates",
-      "type": "queens.imr.controller.patientFetchController",
-      "sourceType": "queens.imr.controller.patientFetchController"
+      "type": "queens.imr.controller.ReadJsonFiles",
+      "sourceType": "queens.imr.controller.ReadJsonFiles"
     }
   ],
   "properties": [
     {
-      "name": "templates.tenant",
-      "type": "java.util.Map<java.lang.String,java.lang.String>",
-      "sourceType": "queens.imr.controller.ReadJsonFiles"
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "javax.sql.DataSource"
+    },
+    {
+      "name": "spring.fourDatasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "javax.sql.DataSource"
+    },
+    {
+      "name": "spring.oneDatasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "javax.sql.DataSource"
+    },
+    {
+      "name": "spring.threeDatasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "javax.sql.DataSource"
+    },
+    {
+      "name": "spring.twoDatasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "javax.sql.DataSource"
     },
     {
       "name": "templates.tenant",
       "type": "java.util.Map<java.lang.String,java.lang.String>",
       "sourceType": "queens.imr.controller.patientFetchController"
+    },
+    {
+      "name": "templates.tenant",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "queens.imr.controller.ReadJsonFiles"
     }
   ],
   "hints": []
