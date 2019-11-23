@@ -133,6 +133,16 @@ public class Store
 		int status = db.update(INPUT_DETAILS_INSERT, new Object[] {name,mobile ,jsonObjectAdmit.toString(),mobile,addmissionType});
 		LOGGER.info("Status---"+ status);
 	}
+	public void createDocProg(String mobile, Object objProgress) 
+	{
+		LOGGER.info("NOW CREATING THE NEW PATIENT");
+		String INPUT_DETAILS_INSERT ="insert into queens.progress_notes(patient_id,nurse_pnotes,doc_pnotes) "
+				+ "values(?,?::jsonb,?::jsonb)ON CONFLICT (patient_id) " + 
+				"DO NOTHING";
+		int status = db.update(INPUT_DETAILS_INSERT, new Object[] {mobile ,objProgress.toString(),objProgress.toString()});
+		LOGGER.info("Status---"+ status);
+		
+	}
 	public int updatePatient(String name, String mobile, JSONObject jsonObjectAdmit, String addmissionType) 
 	{
 		LOGGER.info("NOW Updating THE Exsisting PATIENT");
@@ -284,4 +294,5 @@ public class Store
 
 		}
 		}
+		
 }

@@ -2,7 +2,10 @@ package queens.imr.controller;
 
 import java.io.File;
 import java.io.FileFilter;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.Date;
 import java.util.HashMap;
 
@@ -23,6 +26,7 @@ import java.util.Map;
 
 import org.apache.commons.io.filefilter.WildcardFileFilter;
 import org.apache.commons.lang3.StringUtils;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import queens.imr.config.UserDAO;
@@ -62,6 +66,11 @@ public class ReadJsonFiles
             File[] filesAdmit = dir.listFiles(fileFilterAdmit);
             Object patient = null;
             Object admit = null;
+            JSONParser jsonParser = new JSONParser();
+
+        	FileReader readerProgressNotes = new FileReader(path+"progressNotes.json");
+            Object objProgress = jsonParser.parse(readerProgressNotes);
+            LOGGER.info("objProgress"+objProgress);
             for (int i = 0; i < files.length; i++) 
             {
                patient = parser.parse(new FileReader(files[i]));
@@ -86,14 +95,15 @@ public class ReadJsonFiles
     				throw new NullPointerException();
     			}
     			LOGGER.info("\nSetting up DB template");
-    			store.setTemplate(dbTemplate);			
+    			store.setTemplate(dbTemplate);
     			Patient responseObj = store.getOnlyPatient(name,mobile);
+				store.createDocProg(mobile,objProgress);
+
     			if(responseObj ==null)
     			{
     				LOGGER.info("PAtient Doesnot exists so have to create a new patient");
     				LOGGER.info("Creating the Patient");
     				store.createPatient(name,mobile,jsonObjectAdmit,addmissionType);
-    				
     			}	
     			else
     			{
@@ -105,10 +115,12 @@ public class ReadJsonFiles
     		 }
             }
         } 
-        catch (Exception e) {
+        catch (Exception e) 
+        {
             e.printStackTrace();
         }
       //  System.out.println(Thread.currentThread().getName()+" The Task2 executed at "+ new Date());
     }
+	
 
 }
