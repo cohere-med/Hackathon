@@ -1,0 +1,67 @@
+server:
+  port: 9099
+  server-header: DeepArrythmia Server
+  compression:
+   enabled: false
+   min-response-size: 4096
+   mime-types: application/json+fhir,application/json 
+    
+---
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://cometdev.cmfajmcrlnfq.ap-south-1.rds.amazonaws.com:5432/cohere
+    username: cometadmin
+    password: cohere123
+    testWhileIdle: true
+    validationQuery: SELECT 1 
+
+  oneDatasource:
+    url: jdbc:postgresql://cometdev.cmfajmcrlnfq.ap-south-1.rds.amazonaws.com:5432/datasourceone
+    username: cometadmin
+    password: cohere123
+    driver-class-name: org.postgresql.Driver 
+    testWhileIdle: true
+    validationQuery: SELECT 1     
+    
+  twoDatasource:
+    url: jdbc:postgresql://cometdev.cmfajmcrlnfq.ap-south-1.rds.amazonaws.com:5432/datasourcetwo
+    username: cometadmin
+    password: cohere123
+    driver-class-name: org.postgresql.Driver 
+    testWhileIdle: true
+    validationQuery: SELECT 1    
+      
+AI.data:
+  fileName: AIData.properties
+  appTimezone: Asia/Kolkata
+  dtFormat: yyyy-MM-dd HH:mm:ss
+  
+
+  
+multipart:
+  max-file-size: 100MB
+  multipart.max-request-size: 100MB
+  
+s3:
+  bucketname: dev.coheremed.com
+  folder.level0: deeprrhythmia
+  folder.level1: reports
+  folder.level11: images
+  env: dev
+jrxml:
+  fileName: Report.jrxml
+
+configdata:
+  propertyfile: /Users/vijayaseetharaman/Documents/Github/DeepArrhythmia-services/DeeprrhythmiaAPI/src/main/resources/
+  reportxml: /Users/vijayaseetharaman/Documents/workspace-spring-tool-suite-4-4.4.0.RELEASE/imr/src/main/resources/
+  #propertyfile: ./
+  #reportxml: ./
+  awsenv: local
+  #awsenv: ec2
+  path : /Users/vijayaseetharaman/Desktop/
+  
+templates:
+ tenant:
+  modelhospital.com: jdbcTemplateFirst
+  kauveryhealthcare.com: jdbcTemplateOne

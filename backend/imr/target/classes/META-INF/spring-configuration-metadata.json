@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "queens.imr.config.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource firstDataSource() "
+    },
+    {
+      "name": "spring.fourDatasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "queens.imr.config.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource fourDataSource() "
+    },
+    {
+      "name": "spring.oneDatasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "queens.imr.config.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource oneDataSource() "
+    },
+    {
+      "name": "spring.threeDatasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "queens.imr.config.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource threeDataSource() "
+    },
+    {
+      "name": "spring.twoDatasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "queens.imr.config.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource twoDataSource() "
+    },
+    {
+      "name": "templates",
+      "type": "queens.imr.controller.ReadJsonFiles",
+      "sourceType": "queens.imr.controller.ReadJsonFiles"
+    },
+    {
+      "name": "templates",
+      "type": "queens.imr.controller.patientFetchController",
+      "sourceType": "queens.imr.controller.patientFetchController"
+    }
+  ],
+  "properties": [
+    {
+      "name": "templates.tenant",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "queens.imr.controller.ReadJsonFiles"
+    },
+    {
+      "name": "templates.tenant",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "queens.imr.controller.patientFetchController"
+    }
+  ],
+  "hints": []
+}

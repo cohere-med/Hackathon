@@ -1,0 +1,194 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>imageReconistion</groupId>
+  <artifactId>imr</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>imr</name>
+  <url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.6.RELEASE</version>		
+		<relativePath />
+	</parent>
+	<dependencies>
+   <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4-1201-jdbc41</version>
+        </dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
+		<dependency>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-annotations</artifactId>
+			<version>1.5.22</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+			<dependency>
+		    <groupId>ch.qos.logback</groupId>
+		    <artifactId>logback-classic</artifactId>
+		    <version>1.2.3</version>
+		</dependency>
+		
+		<!-- Svg maven -->
+<!-- https://mvnrepository.com/artifact/batik/batik-bridge -->
+<dependency> 
+<groupId>org.apache.xmlgraphics</groupId> 
+<artifactId>batik-bridge</artifactId> 
+<version>1.11</version> 
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-codec -->
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-codec</artifactId>
+    <version>1.11</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20171018</version>
+</dependency>
+
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+	<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.10</version>
+</dependency>
+<dependency>
+<groupId>net.sf.jasperreports</groupId>
+<artifactId>jasperreports-fonts</artifactId>
+<version>4.0.0</version>
+<scope>test</scope>
+</dependency>	
+			<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports</artifactId>
+    <version>6.10.0</version>
+</dependency>
+
+			<dependency>
+			 <groupId>com.fasterxml.jackson.core</groupId>
+			 <artifactId>jackson-core</artifactId>
+			</dependency>
+			<dependency>
+			 <groupId>com.fasterxml.jackson.core</groupId>
+			 <artifactId>jackson-databind</artifactId>
+			</dependency>
+			<dependency>
+			 <groupId>com.fasterxml.jackson.core</groupId>
+			 <artifactId>jackson-annotations</artifactId>
+			</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
+		
+		
+   <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-core</artifactId>
+			<version>1.11.587</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
+			<version>1.11.587</version>
+		</dependency>
+		 <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.5</version>
+</dependency>
+        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.1</version>
+</dependency>
+        
+	</dependencies>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<start-class>queens.imr.App</start-class>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<build>
+		<plugins>
+		<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>2.3.2</version>
+    <configuration>
+        <encoding>UTF-8</encoding>
+    </configuration>
+</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
