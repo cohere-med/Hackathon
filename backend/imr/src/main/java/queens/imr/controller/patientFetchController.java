@@ -234,11 +234,11 @@ public class patientFetchController
 				}
 			LOGGER.info("\nSetting up DB template");
 			store.setTemplate(dbTemplate);	
-			List<Notes> notesList = store.findAllNotes();
-			if(notesList !=null)
+			JSONObject jobj= store.findAllNotes();
+			if(jobj !=null)
 			{
 	        store.setTemplate(null); 
-	        return new ResponseEntity<String>(notesList.toString(), HttpStatus.OK);
+	        return new ResponseEntity<String>(jobj.toString(), HttpStatus.OK);
 			}	
 			LOGGER.info("\n--------------Queued data API completed ------------");
 

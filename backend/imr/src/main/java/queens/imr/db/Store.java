@@ -258,12 +258,15 @@ public class Store
 			return  new ResponseEntity<String>("Report couldnot be exported by the JasperExportManager", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
-		public List<Notes> findAllNotes() 
+		public JSONObject findAllNotes() 
 		{
 
 			String getRequestQry = "select * from queens.progress_notes";
 			LOGGER.info(getRequestQry);
-			return db.query(getRequestQry, new NotesMapper());			
+			List<Notes> notesList = db.query(getRequestQry, new NotesMapper());
+			JSONObject jsonobj =  new JSONObject();
+			jsonobj.put("NotesList", notesList);
+			return jsonobj;
 			
 		}
 		
