@@ -32,8 +32,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StreamUtils;
+
 import queens.imr.controller.patientFetchController;
-import queens.imr.entitiy.Notes;
 import queens.imr.entitiy.Patient;
 
 
@@ -257,28 +257,16 @@ public class Store
 			LOGGER.error("Report couldnot be exported by the JasperExportManager");			
 			return  new ResponseEntity<String>("Report couldnot be exported by the JasperExportManager", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
-	}
-		public List<Notes> findAllNotes() 
+		
+		private void findAllNotes() 
 		{
 
 			String getRequestQry = "select * from queens.progress_notes";
 			LOGGER.info(getRequestQry);
-			return db.query(getRequestQry, new NotesMapper());			
+			return db.queryForObject(getRequestQry, new NotesMapper());
+			
 			
 		}
-		
-
-		private static final class NotesMapper implements RowMapper<Notes> {
-		    public Notes mapRow(ResultSet rs, int rowNum) throws SQLException        
-		    {	        	
-		    	
-		    LOGGER.info(rs+"rs");
-			Notes notes = new Notes();
-			notes.setPatient_id(rs.getString("patient_id"));
-			notes.setDoc_notes(rs.getString("doc_pnotes"));
-			notes.setNurses_notes(rs.getString("nurse_pnotes"));
-		    return notes;
-
-		}
-		}
+	}
+	
 }
