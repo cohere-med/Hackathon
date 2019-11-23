@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<property name="logPattern" value="%d %-5level %logger{35} - %msg%n"/>
+<property name="logEncoding" value="UTF-8"/>
+<!--  <property name="logDirectory" value="/home/ec2-user/logs"/> --> 
+<property name="logDirectory" value="/Users/vijayaseetharaman/logs"/>  
+
+<appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${logDirectory}/cm_da.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePattern>${logDirectory}/archived/cm_da_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+        <maxHistory>2</maxHistory>
+        <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+            <maxFileSize>10MB</maxFileSize>
+        </timeBasedFileNamingAndTriggeringPolicy>
+    </rollingPolicy>
+    <encoder>
+        <charset>${logEncoding}</charset>
+        <pattern>${logPattern}</pattern>
+    </encoder>
+</appender>
+
+ <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  
+<logger name="com.cm.flowsheet" additivity="false" level="info">
+    <appender-ref ref="fileAppender"/>  
+    <appender-ref ref="STDOUT"/>   
+ </logger>
+
+<logger name="org.springframework" level="warn"/>
+<root level="INFO">
+     <appender-ref ref="STDOUT"/>    
+    <appender-ref ref="fileAppender"/>
+</root>
+ </configuration>

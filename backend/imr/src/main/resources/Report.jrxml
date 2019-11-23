@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="new_report" pageWidth="800" pageHeight="500" orientation="Landscape" columnWidth="600" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="ad5931be-062d-4080-8ace-00ef88fa4f06">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="age" class="java.lang.String"/>
+	<parameter name="gender" class="java.lang.String"/>
+	<parameter name="HR" class="java.lang.String"/>
+	<parameter name="diasbp" class="java.lang.String"/>
+	<parameter name="Pulse" class="java.lang.String"/>
+	<parameter name="sysbp" class="java.lang.String"/>
+	<parameter name="complaints" class="java.lang.String"/>
+	<parameter name="ci" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select 1]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="106" splitType="Stretch">
+			<staticText>
+				<reportElement x="240" y="70" width="280" height="30" uuid="8c86d6a4-1292-4f6d-9c50-60ec1f3797a8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Big Caslon" size="20"/>
+				</textElement>
+				<text><![CDATA[Queens Hospital]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="320" y="20" width="120" height="50" uuid="d750f129-416f-4b6e-bdec-645b463fc5e1"/>
+				<imageExpression><![CDATA["nyc-health-hospitals-queens-logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="360" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="20" width="110" height="27" uuid="743f7ed1-1b62-486e-ae00-8d531a0e2b0a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Patient Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="470" y="20" width="70" height="27" uuid="26cace70-52b1-45a9-830e-0be63e9e9c0a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="660" y="20" width="40" height="27" uuid="3ce299a5-a4ef-4cff-9cc6-cc547aca47f3"/>
+				<textElement textAlignment="Right">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="90" width="50" height="27" uuid="ca3e3284-5af3-4365-8110-d72cd1240a53"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[HR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="140" width="50" height="27" uuid="4e982cc6-c451-4550-88a4-fbd97e3fb39e"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Pulse]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="90" width="50" height="27" uuid="71cc0e8e-7026-4ca6-a842-459f01a22503"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Sysbp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="140" width="50" height="27" uuid="d8e6e284-38ba-4c96-924c-3c0f4aa49090"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Diasbp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="190" width="120" height="27" uuid="b55d1ac6-b655-4196-bada-19a1c3b4c5ae"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Criticality Index]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="240" width="90" height="27" uuid="1c68de23-ec52-4f41-b4f1-ce32eabb9c21"/>
+				<textElement textAlignment="Left">
+					<font fontName="Hiragino Sans" size="14" isBold="false" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Complaints]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="20" width="310" height="30" uuid="f10907ce-6b2d-4828-b4f0-12df8941b71a"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="550" y="20" width="90" height="30" uuid="5a330854-a881-477e-9404-eceafc8f49e1"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="710" y="20" width="40" height="30" uuid="b0ea29c1-3ab2-42b4-9950-305b0e76b75e"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="90" width="70" height="30" uuid="24aadb05-aa42-4ada-89c6-e5face1e27d2"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{HR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="90" width="80" height="30" uuid="d724cd0d-1081-4016-bbfe-0e39e1485a22"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sysbp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="138" width="70" height="30" uuid="4fd3c44b-56ba-4c3e-aa63-710952d2d24c"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Pulse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="140" width="80" height="30" uuid="882e0376-4706-4282-af92-2bb5d62b2bdc"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{diasbp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="190" width="190" height="30" uuid="b315caa1-23be-4bee-9e3c-ccd2fd07bf37"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ci}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="240" width="400" height="120" uuid="a7343e6d-3271-4e1f-a9bc-371dd78a5330"/>
+				<textElement>
+					<font fontName="Hiragino Sans" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{complaints}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
