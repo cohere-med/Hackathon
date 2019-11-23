@@ -1,0 +1,3256 @@
+/*
+	@name index
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 360px; height: 640px; margin-left: auto; margin-right: auto;  }
+
+#_bg__index {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 640px;
+	background:rgba(255,255,255,255);
+}
+
+#sysbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+#group_189 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+
+#sysbar {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+	background:rgba(224,224,224,255);
+}
+
+
+#sysbar_time {
+	top: -1px;
+	left: 317px;
+	width: 41px;
+	height: 19px;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#4e4e4e;
+}
+
+#sysbar_battery {
+	top: 4px;
+	left: 300px;
+	width: 8.6153869628906px;
+	height: 14px;
+}
+
+#rectangle {
+	top: 11px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek1 {
+	top: 8px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek2 {
+	top: 4px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek3 {
+	top: 1px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek4 {
+	top: 0px;
+	left: 2px;
+	width: 4.3076934814453px;
+	height: 1.076904296875px;
+	background:rgba(78,78,78,255);
+}
+
+
+#sysbar_status {
+	top: 4px;
+	left: 277px;
+	width: 14px;
+	height: 14px;
+}
+
+
+#sysbar_wifi {
+	top: 4px;
+	left: 258px;
+	width: 17.600006103516px;
+	height: 14px;
+}
+
+
+#rectangle_1363 {
+	top: 24px;
+	left: 0px;
+	width: 358px;
+	height: 614px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_1364 {
+	top: 24px;
+	left: 0px;
+	width: 360px;
+	height: 616px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(27,194,204,255) 0%, rgba(127,25,232,255) 100%);
+	background: -o-linear-gradient(-180deg , rgba(27,194,204,255) 0%, rgba(127,25,232,255) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(27,194,204,255) 0%, rgba(127,25,232,255) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(27,194,204,255) 0%, rgba(127,25,232,255) 100%);
+	background: linear-gradient(-180deg , rgba(27,194,204,255) 0%, rgba(127,25,232,255) 100%);
+}
+
+
+#deeepsee {
+	top: 293px;
+	left: 87px;
+	width: 177px;
+	height: 56px;
+	font-family: Roboto;
+	font-size: 41px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+#deeepsee_ek1 {
+	opacity:0.026568500325084;
+	top: 322px;
+	left: 87px;
+	width: 177px;
+	height: 56px;
+	font-family: Roboto;
+	font-size: 41px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+
+/* Add your custom CSS here */
+/*
+	@name list1
+*/
+/* Only edit this if you know what you are doing! */
+
+
+ { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 360px; height: 640px; margin-left: auto; margin-right: auto;  }
+
+#_bg__list1 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 640px;
+	background:rgba(255,255,255,255);
+}
+
+#app_bar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 81px;
+}
+
+#rectangle_3 {
+	top: 1px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(224,224,224,255);
+}
+
+
+#ui_appbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(245,245,245,255);
+}
+
+
+#settings {
+	top: 35px;
+	left: 72px;
+	width: 79px;
+	height: 28px;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+#sysbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+#group_189 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+
+#sysbar {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+	background:rgba(224,224,224,255);
+}
+
+
+#sysbar_time {
+	top: -1px;
+	left: 317px;
+	width: 41px;
+	height: 19px;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#4e4e4e;
+}
+
+#sysbar_battery {
+	top: 4px;
+	left: 300px;
+	width: 8.6153869628906px;
+	height: 14px;
+}
+
+#rectangle {
+	top: 11px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek1 {
+	top: 8px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek2 {
+	top: 4px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek3 {
+	top: 1px;
+	left: 0px;
+	width: 8.6153869628906px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek4 {
+	top: 0px;
+	left: 2px;
+	width: 4.3076782226562px;
+	height: 1.076904296875px;
+	background:rgba(78,78,78,255);
+}
+
+
+#sysbar_status {
+	top: 4px;
+	left: 277px;
+	width: 14px;
+	height: 14px;
+}
+
+
+#sysbar_wifi {
+	top: 4px;
+	left: 258px;
+	width: 17.600006103516px;
+	height: 14px;
+}
+
+#navbar_mobile_light {
+	top: 40px;
+	left: 16px;
+	width: 24px;
+	height: 24px;
+}
+
+#rectangle_ek5 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+	background:rgba(0,0,0,0);
+}
+
+
+#path {
+	top: 6px;
+	left: 3px;
+	width: 18px;
+	height: 12px;
+}
+
+#repeat_grid_2 {
+	top: 92px;
+	left: 0px;
+	width: 360px;
+	height: 540px;
+	overflow:hidden;
+}
+
+#rectangle_1360 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_901 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek1 {
+	top: 90px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek1 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek1 {
+	opacity:0.40000000596046;
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_902 {
+	opacity:0.40000000596046;
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek1 {
+	top: 18px;
+	left: 91px;
+	width: 91px;
+	height: 54px;
+}
+
+#no_patient {
+	opacity:0.20000000298023;
+	top: -9px;
+	left: 0px;
+	width: 95px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#__ {
+	top: 14px;
+	left: 0px;
+	width: 8px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek1 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek1 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek1 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek1 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721_ek1 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek1 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek1 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek2 {
+	top: 180px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek2 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_903 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek2 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek1 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek1 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek2 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek2 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek2 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek2 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721_ek2 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek2 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek2 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek3 {
+	top: 270px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek3 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_904 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek3 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek2 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek2 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek3 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek3 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek3 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek3 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721_ek3 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek3 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek3 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek4 {
+	top: 360px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek4 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_905 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek4 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek3 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek3 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek4 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek4 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek4 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek4 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721_ek4 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek4 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek4 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek5 {
+	top: 450px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek5 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_906 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek5 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek4 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek4 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek5 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek5 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek5 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek5 {
+	top: 3px;
+	left: 2px;
+	width: 12.000007629395px;
+	height: 11px;
+}
+
+#group_1721_ek5 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek5 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek5 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#group_1724 {
+	top: 354px;
+	left: 17px;
+	width: 326px;
+	height: 274px;
+}
+
+#rectangle_1361 {
+	top: 0px;
+	left: 0px;
+	width: 324px;
+	height: 272px;
+	-ms-border-radius: 14px;
+	-o-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 1px solid #707070;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(255,255,255,255);
+}
+
+
+#patient_changed_in_the_901 {
+	top: 11px;
+	left: 14px;
+	width: 221px;
+	height: 26px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#707070;
+}
+
+#group_1723 {
+	top: 201px;
+	left: 191px;
+	width: 115px;
+	height: 39px;
+}
+
+#rectangle_6 {
+	top: 0px;
+	left: 0px;
+	width: 113px;
+	height: 37px;
+	-ms-border-radius: 19px;
+	-o-border-radius: 19px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#okay {
+	top: 4px;
+	left: 37px;
+	width: 47px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#__p__closing_old_patient_records_and_starting_new_patient_charting_ {
+	top: 58px;
+	left: 14px;
+	width: 292px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#707070;
+}
+
+
+#__p__old_patient_charting_summary_is_sent_to_the_linked_email_id {
+	top: 117px;
+	left: 14px;
+	width: 292px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#707070;
+}
+
+
+#_bg__patientdetails {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 640px;
+	background:rgba(255,255,255,255);
+}
+
+#app_bar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 81px;
+}
+
+#rectangle_3 {
+	top: 1px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(224,224,224,255);
+}
+
+
+#ui_appbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(245,245,245,255);
+}
+
+
+#settings {
+	top: 35px;
+	left: 72px;
+	width: 79px;
+	height: 28px;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+#sysbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+#group_189 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+
+#sysbar {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+	background:rgba(224,224,224,255);
+}
+
+
+#sysbar_time {
+	top: -1px;
+	left: 317px;
+	width: 41px;
+	height: 19px;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#4e4e4e;
+}
+
+#sysbar_battery {
+	top: 4px;
+	left: 300px;
+	width: 8.6153564453125px;
+	height: 14px;
+}
+
+#rectangle {
+	top: 11px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.230712890625px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek1 {
+	top: 8px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.230712890625px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek2 {
+	top: 4px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.230712890625px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek3 {
+	top: 1px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.230712890625px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek4 {
+	top: 0px;
+	left: 2px;
+	width: 4.3077392578125px;
+	height: 1.076904296875px;
+	background:rgba(78,78,78,255);
+}
+
+
+#sysbar_status {
+	top: 4px;
+	left: 278px;
+	width: 14px;
+	height: 14px;
+}
+
+
+#sysbar_wifi {
+	top: 4px;
+	left: 258px;
+	width: 17.599975585938px;
+	height: 14px;
+}
+
+#ic_back_arrow {
+	top: 40px;
+	left: 16px;
+	width: 24px;
+	height: 24px;
+}
+#group_283 {
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#rectangle_155 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+	background:rgba(0,0,0,0);
+}
+
+
+#path_77 {
+	top: 4px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+}
+
+
+#patient__93242 {
+	top: 101px;
+	left: 24px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old {
+	top: 107px;
+	left: 267px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1 {
+	top: 41px;
+	left: 296px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,0);
+}
+
+
+#path_786 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,0);
+}
+
+
+#path_787 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,0);
+}
+
+
+#injection {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#vitals {
+	top: 160px;
+	left: 24px;
+	width: 44px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+#group_689 {
+	top: 193.29016113281px;
+	left: 24px;
+	width: 309.09423828125px;
+	height: 59.709838867188px;
+}
+#group_683 {
+	top: 4px;
+	left: 0px;
+	width: 24px;
+	height: 56px;
+}
+
+#hr {
+	top: 39px;
+	left: 2px;
+	width: 21px;
+	height: 16px;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	text-align: center;
+	color:#505050;
+}
+
+
+#_60 {
+	top: 10px;
+	left: 0px;
+	width: 29px;
+	height: 28px;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#505050;
+}
+
+#ht_stable_iocn {
+	top: 0px;
+	left: 1px;
+	width: 21.828430175781px;
+	height: 5.6568603515625px;
+}
+
+#rectangle_1209 {
+	top: 2px;
+	left: 0px;
+	width: 20px;
+	height: 2px;
+	background:rgba(0,190,145,255);
+}
+
+
+#path_814 {
+	top: 0px;
+	left: 16px;
+	width: 5.6568603515625px;
+	height: 5.6568603515625px;
+}
+
+#group_686 {
+	top: 0px;
+	left: 125px;
+	width: 22.44677734375px;
+	height: 59.709838867188px;
+}
+
+#rr {
+	top: 43px;
+	left: 1px;
+	width: 21px;
+	height: 16px;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	text-align: right;
+	color:#505050;
+}
+
+
+#_18 {
+	top: 14px;
+	left: 1px;
+	width: 26px;
+	height: 28px;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#505050;
+}
+
+#ht_rising_icon {
+	top: 0px;
+	left: 0px;
+	width: 22.44677734375px;
+	height: 12.781494140625px;
+}
+
+#rectangle_1209_ek1 {
+	top: 2px;
+	left: 1px;
+	width: 19.477905273438px;
+	height: 8.7198486328125px;
+	background:rgba(0,190,145,255);
+}
+
+
+#path_814_ek1 {
+	top: 1px;
+	left: 16px;
+	width: 5.3157348632812px;
+	height: 5.315673828125px;
+}
+
+#group_687 {
+	top: 0px;
+	left: 181px;
+	width: 37px;
+	height: 59.709838867188px;
+}
+
+#temp {
+	top: 43px;
+	left: 1px;
+	width: 36px;
+	height: 16px;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	text-align: right;
+	color:#505050;
+}
+
+
+#_37_3 {
+	top: 14px;
+	left: 0px;
+	width: 42px;
+	height: 28px;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#505050;
+}
+
+#ht_falling_icon {
+	top: 0px;
+	left: 7px;
+	width: 22.44677734375px;
+	height: 12.781494140625px;
+}
+
+#rectangle_1209_ek2 {
+	top: 2px;
+	left: 1px;
+	width: 19.477905273438px;
+	height: 8.7197265625px;
+	background:rgba(0,190,145,255);
+}
+
+
+#path_814_ek2 {
+	top: 6px;
+	left: 16px;
+	width: 5.315673828125px;
+	height: 5.315673828125px;
+}
+
+#group_688 {
+	top: 0px;
+	left: 250px;
+	width: 59px;
+	height: 59.709838867188px;
+}
+
+#bp {
+	top: 43px;
+	left: 20px;
+	width: 21px;
+	height: 16px;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	text-align: right;
+	color:#505050;
+}
+
+
+#_121_82 {
+	top: 12px;
+	left: 0px;
+	width: 64px;
+	height: 28px;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#505050;
+}
+
+#group_682 {
+	top: 0px;
+	left: 18px;
+	width: 22.44677734375px;
+	height: 12.781494140625px;
+}
+
+#rectangle_1209_ek3 {
+	top: 2px;
+	left: 1px;
+	width: 19.477905273438px;
+	height: 8.7197265625px;
+	background:rgba(0,190,145,255);
+}
+
+
+#path_814_ek3 {
+	top: 6px;
+	left: 16px;
+	width: 5.315673828125px;
+	height: 5.315673828125px;
+}
+
+#group_685 {
+	top: 3px;
+	left: 59px;
+	width: 32px;
+	height: 56.500244140625px;
+}
+
+#spo2 {
+	top: 40px;
+	left: -2px;
+	width: 37px;
+	height: 16px;
+	font-family: SF Pro Text;
+	font-size: 12px;
+	text-align: right;
+	color:#505050;
+}
+
+
+#_99 {
+	top: 11px;
+	left: 4px;
+	width: 29px;
+	height: 28px;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#505050;
+}
+
+#ht_unstable_icon {
+	top: 0px;
+	left: 6px;
+	width: 21.5px;
+	height: 6px;
+}
+
+#path_803 {
+	top: -1px;
+	left: -1px;
+	width: 21.614501953125px;
+	height: 8.06982421875px;
+}
+
+
+#path_815 {
+	top: 2px;
+	left: 18px;
+	width: 4px;
+	height: 4px;
+}
+
+
+#_bg__list2 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 640px;
+	background:rgba(255,255,255,255);
+}
+
+#app_bar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 81px;
+}
+
+#rectangle_3 {
+	top: 1px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(224,224,224,255);
+}
+
+
+#ui_appbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 80px;
+	background:rgba(245,245,245,255);
+}
+
+
+#settings {
+	top: 35px;
+	left: 72px;
+	width: 79px;
+	height: 28px;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+#sysbar_light {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+#group_189 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+}
+
+#sysbar {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 24px;
+	background:rgba(224,224,224,255);
+}
+
+
+#sysbar_time {
+	top: -1px;
+	left: 317px;
+	width: 41px;
+	height: 19px;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#4e4e4e;
+}
+
+#sysbar_battery {
+	top: 4px;
+	left: 300px;
+	width: 8.6153564453125px;
+	height: 14px;
+}
+
+#rectangle {
+	top: 11px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek1 {
+	top: 8px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek2 {
+	top: 4px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek3 {
+	top: 1px;
+	left: 0px;
+	width: 8.6153564453125px;
+	height: 3.2307739257812px;
+	background:rgba(78,78,78,255);
+}
+
+
+#rectangle_ek4 {
+	top: 0px;
+	left: 2px;
+	width: 4.3077392578125px;
+	height: 1.076904296875px;
+	background:rgba(78,78,78,255);
+}
+
+
+#sysbar_status {
+	top: 4px;
+	left: 278px;
+	width: 14px;
+	height: 14px;
+}
+
+
+#sysbar_wifi {
+	top: 4px;
+	left: 258px;
+	width: 17.599975585938px;
+	height: 14px;
+}
+
+#navbar_mobile_light {
+	top: 40px;
+	left: 16px;
+	width: 24px;
+	height: 24px;
+}
+
+#rectangle_ek5 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+	background:rgba(0,0,0,0);
+}
+
+
+#path {
+	top: 6px;
+	left: 3px;
+	width: 18px;
+	height: 12px;
+}
+
+#repeat_grid_2 {
+	top: 92px;
+	left: 0px;
+	width: 360px;
+	height: 540px;
+	overflow:hidden;
+}
+
+#rectangle_1360 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_901 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1 {
+	top: 18px;
+	left: 91px;
+	width: 140px;
+	height: 54px;
+}
+
+#patient__786323 {
+	top: -9px;
+	left: 0px;
+	width: 141px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek1 {
+	top: 90px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek1 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek1 {
+	opacity:0.40000000596046;
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_902 {
+	opacity:0.40000000596046;
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek1 {
+	top: 18px;
+	left: 91px;
+	width: 91px;
+	height: 54px;
+}
+
+#no_patient {
+	opacity:0.20000000298023;
+	top: -9px;
+	left: 0px;
+	width: 95px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#__ {
+	top: 14px;
+	left: 0px;
+	width: 8px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek1 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek1 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek1 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek1 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721_ek1 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek1 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek1 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek2 {
+	top: 180px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek2 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_903 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek2 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek1 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek2 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek2 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek2 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek2 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721_ek2 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek2 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek2 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek3 {
+	top: 270px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek3 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_904 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek3 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek1 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek2 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek3 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek3 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek3 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek3 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721_ek3 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek3 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek3 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek4 {
+	top: 360px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek4 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_905 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek4 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek2 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek3 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek4 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek4 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek4 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek4 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721_ek4 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek4 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek4 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#__ek5 {
+	top: 450px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+}
+
+#rectangle_1360_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 90px;
+	background:rgba(255,255,255,255);
+}
+
+#component_86___1_ek5 {
+	top: 13px;
+	left: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+#rectangle_7_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(44,92,181,255);
+}
+
+
+#_906 {
+	top: 12px;
+	left: 8px;
+	width: 45px;
+	height: 33px;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#component_87___1_ek5 {
+	top: 18px;
+	left: 91px;
+	width: 129px;
+	height: 54px;
+}
+
+#patient__93242_ek3 {
+	top: -9px;
+	left: 0px;
+	width: 130px;
+	height: 28px;
+	font-family: SF Compact Display;
+	font-size: 20px;
+	text-align: left;
+	color:#5c5c5c;
+}
+
+
+#male__old_ek4 {
+	top: 14px;
+	left: 0px;
+	width: 68px;
+	height: 22px;
+	font-family: SF Compact Display;
+	font-size: 16px;
+	text-align: left;
+	color:#747474;
+}
+
+#component_85___1_ek5 {
+	top: 38px;
+	left: 0px;
+	width: 48px;
+	height: 16px;
+}
+#group_1719_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1357_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_786_ek5 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 10px;
+}
+
+#group_1720_ek5 {
+	top: 0px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1358_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_787_ek5 {
+	top: 3px;
+	left: 2px;
+	width: 12px;
+	height: 11px;
+}
+
+#group_1721_ek5 {
+	top: 0px;
+	left: 32px;
+	width: 16px;
+	height: 16px;
+}
+
+#rectangle_1359_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	background:rgba(255,255,255,255);
+}
+
+
+#injection_ek5 {
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12.000122070312px;
+}
+
+
+#rectangle_1198_ek5 {
+	top: 89px;
+	left: 0px;
+	width: 360px;
+	height: 1px;
+	background:rgba(241,241,241,255);
+}
+
+#group_1725 {
+	top: 109px;
+	left: 299px;
+	width: 49px;
+	height: 17px;
+}
+
+#rectangle_1362 {
+	top: 0px;
+	left: 0px;
+	width: 49px;
+	height: 17px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background:rgba(255,186,0,255);
+}
+
+
+#new {
+	top: -2px;
+	left: 13px;
+	width: 28px;
+	height: 16px;
+	font-family: SF Compact Display;
+	font-size: 12px;
+	text-align: left;
+	color:#ffffff;
+}
+
+#group_1724 {
+	top: 354px;
+	left: 17px;
+	width: 326px;
+	height: 274px;
+}
+
+#rectangle_1361 {
+	top: 0px;
+	left: 0px;
+	width: 324px;
+	height: 272px;
+	-ms-border-radius: 14px;
+	-o-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 1px solid #707070;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(255,255,255,255);
+}
+
+
+#patient_changed_in_the_901 {
+	top: 11px;
+	left: 14px;
+	width: 221px;
+	height: 26px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#707070;
+}
+
+#group_1723 {
+	top: 201px;
+	left: 191px;
+	width: 115px;
+	height: 39px;
+}
+
+#rectangle_6 {
+	top: 0px;
+	left: 0px;
+	width: 113px;
+	height: 37px;
+	-ms-border-radius: 19px;
+	-o-border-radius: 19px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#okay {
+	top: 4px;
+	left: 37px;
+	width: 47px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#__p__closing_old_patient_records_and_starting_new_patient_charting_ {
+	top: 58px;
+	left: 14px;
+	width: 292px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#707070;
+}
+
+
+#__p__old_patient_charting_summary_is_sent_to_the_linked_email_id {
+	top: 117px;
+	left: 14px;
+	width: 292px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#707070;
+}
+
+
+
+/* Add your custom CSS here */

@@ -1,0 +1,431 @@
+<!-- 
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		list1
+ *	@date 		0
+ *	@title 		List1
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.2.9.xd
+ *
+*/
+ -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>PatientPage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="stylesheet.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js"></script>
+		<!-- Add your custom HEAD content here -->
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	</head>
+	<script>
+	var jsonObj=null;
+	setInterval(function()
+			{ 
+		document.getElementById("group_1724").style.visibility = "hidden";
+		$.getJSON("results.json", function(json) {
+		    console.log(json); 
+		    if(json.Patient_Identifier='[True]')
+		    	{
+						document.getElementById("group_1724").style.visibility = "visible";
+		    	}		    
+		});		
+		
+
+	}, 10000);
+
+	function loadNextPatient()
+	{
+		document.getElementById("group_1724").style.visibility = "hidden";
+				
+				$.getJSON("data_02.json", function(json) {
+				    console.log(json); 
+				    jsonObj =json;
+				    document.getElementById("_901").innerHTML=json.bedId;
+				    document.getElementById("patient__93242").innerHTML='Patient: '+json.patientID;;
+				    document.getElementById("male__old").innerHTML='Male, 46';
+				});
+	}
+	function invisibleNotification()
+	{
+		document.getElementById("group_1724").style.visibility = "hidden";
+		
+		$.getJSON("data_01.json", function(json) {
+		    console.log(json); 
+		    jsonObj =json;
+		    document.getElementById("_901").innerHTML=json.bedId;
+		    document.getElementById("patient__93242").innerHTML='Patient: '+json.patientID;
+		    document.getElementById("male__old").innerHTML='Male, 56';
+		});
+
+	}
+	function loadPatientDetails()
+	{
+		var vitals=jsonObj.vitals;
+		localStorage.setItem("Respiration", vitals.Respiration);
+		localStorage.setItem("HR", vitals.HR);
+		localStorage.setItem("spo2", vitals.spo2);
+		localStorage.setItem("pulse", vitals.pulse);
+		localStorage.setItem("NIBPd", vitals.NIBPd);
+		localStorage.setItem("NIBPm", vitals.NIBPm);
+		localStorage.setItem("NIBPs", vitals.NIBPs);
+		localStorage.setItem("Temp", vitals.Temp);
+
+		localStorage.setItem("Patient", jsonObj.patientID);
+		window.location.href = 'patientDetails.html';
+	}
+	</script>
+	<body onLoad="invisibleNotification()">
+	<form>
+		<div id="content-container" >
+			<div id="_bg__list1"  ></div>
+
+			<div id="app_bar_light"  >
+				<div id="rectangle_3"  ></div>
+				<div id="ui_appbar_light"  ></div>
+				<div id="settings" >
+					Patients
+				</div>
+
+				<div id="sysbar_light"  >
+
+					<div id="group_189"  >
+						<div id="sysbar"  ></div>
+
+					</div>
+					<div id="sysbar_time" >
+						12:30
+					</div>
+
+					<div id="sysbar_battery"  >
+						<div id="rectangle"  ></div>
+						<div id="rectangle_ek1"  ></div>
+						<div id="rectangle_ek2"  ></div>
+						<div id="rectangle_ek3"  ></div>
+						<div id="rectangle_ek4"  ></div>
+
+					</div>
+					<img src="skins/sysbar_status.png" id="sysbar_status" />
+					<img src="skins/sysbar_wifi.png" id="sysbar_wifi" />
+
+				</div>
+
+				<div id="navbar_mobile_light"  >
+					<div id="rectangle_ek5"  ></div>
+					<img src="skins/path.png" id="path" />
+
+				</div>
+
+			</div>
+
+			<div id="repeat_grid_2"  >
+					<div id="rectangle_1360"  ></div>
+
+					<div id="component_86___1"  >
+						<div id="rectangle_7"  ></div>
+						<div id="_901" >
+							901
+						</div>
+
+					</div>
+
+					<div id="component_87___1"  onClick="loadPatientDetails()">
+						<div id="patient__93242" >
+							Patient: 93242
+						</div>
+						<div id="male__old" >
+							Male, Old
+						</div>
+
+						<div id="component_85___1"  >
+
+							<div id="group_1719"  >
+								<div id="rectangle_1357"  ></div>
+								<img src="skins/path_786.png" id="path_786" />
+
+							</div>
+
+							<div id="group_1720"  >
+								<div id="rectangle_1358"  ></div>
+								<img src="skins/path_787.png" id="path_787" />
+
+							</div>
+
+							<div id="group_1721"  >
+								<div id="rectangle_1359"  ></div>
+								<img src="skins/injection.png" id="injection" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198"  ></div>
+
+				<div id="__ek1"  >
+					<div id="rectangle_1360_ek1"  ></div>
+
+					<div id="component_86___1_ek1"  >
+						<div id="rectangle_7_ek1"  ></div>
+						<div id="_902" >
+							902
+						</div>
+
+					</div>
+
+					<div id="component_87___1_ek1"  >
+						<div id="no_patient" >
+							No patient
+						</div>
+						<div id="__" >
+							 
+						</div>
+
+						<div id="component_85___1_ek1"  >
+
+							<div id="group_1719_ek1"  >
+								<div id="rectangle_1357_ek1"  ></div>
+								<img src="skins/path_786_ek1.png" id="path_786_ek1" />
+
+							</div>
+
+							<div id="group_1720_ek1"  >
+								<div id="rectangle_1358_ek1"  ></div>
+								<img src="skins/path_787_ek1.png" id="path_787_ek1" />
+
+							</div>
+
+							<div id="group_1721_ek1"  >
+								<div id="rectangle_1359_ek1"  ></div>
+								<img src="skins/injection_ek1.png" id="injection_ek1" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198_ek1"  ></div>
+
+				</div>
+
+				<div id="__ek2"  >
+					<div id="rectangle_1360_ek2"  ></div>
+
+					<div id="component_86___1_ek2"  >
+						<div id="rectangle_7_ek2"  ></div>
+						<div id="_903" >
+							903
+						</div>
+
+					</div>
+
+					<div id="component_87___1_ek2"  >
+						<div id="patient__93242_ek1" >
+							Patient: 93242
+						</div>
+						<div id="male__old_ek1" >
+							Male, Old
+						</div>
+
+						<div id="component_85___1_ek2"  >
+
+							<div id="group_1719_ek2"  >
+								<div id="rectangle_1357_ek2"  ></div>
+								<img src="skins/path_786_ek2.png" id="path_786_ek2" />
+
+							</div>
+
+							<div id="group_1720_ek2"  >
+								<div id="rectangle_1358_ek2"  ></div>
+								<img src="skins/path_787_ek2.png" id="path_787_ek2" />
+
+							</div>
+
+							<div id="group_1721_ek2"  >
+								<div id="rectangle_1359_ek2"  ></div>
+								<img src="skins/injection_ek2.png" id="injection_ek2" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198_ek2"  ></div>
+
+				</div>
+
+				<div id="__ek3"  >
+					<div id="rectangle_1360_ek3"  ></div>
+
+					<div id="component_86___1_ek3"  >
+						<div id="rectangle_7_ek3"  ></div>
+						<div id="_904" >
+							904
+						</div>
+
+					</div>
+
+					<div id="component_87___1_ek3"  >
+						<div id="patient__93242_ek2" >
+							Patient: 93242
+						</div>
+						<div id="male__old_ek2" >
+							Male, Old
+						</div>
+
+						<div id="component_85___1_ek3"  >
+
+							<div id="group_1719_ek3"  >
+								<div id="rectangle_1357_ek3"  ></div>
+								<img src="skins/path_786_ek3.png" id="path_786_ek3" />
+
+							</div>
+
+							<div id="group_1720_ek3"  >
+								<div id="rectangle_1358_ek3"  ></div>
+								<img src="skins/path_787_ek3.png" id="path_787_ek3" />
+
+							</div>
+
+							<div id="group_1721_ek3"  >
+								<div id="rectangle_1359_ek3"  ></div>
+								<img src="skins/injection_ek3.png" id="injection_ek3" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198_ek3"  ></div>
+
+				</div>
+
+				<div id="__ek4"  >
+					<div id="rectangle_1360_ek4"  ></div>
+
+					<div id="component_86___1_ek4"  >
+						<div id="rectangle_7_ek4"  ></div>
+						<div id="_905" >
+							905
+						</div>
+
+					</div>
+
+					<div id="component_87___1_ek4"  >
+						<div id="patient__93242_ek3" >
+							Patient: 93242
+						</div>
+						<div id="male__old_ek3" >
+							Male, Old
+						</div>
+
+						<div id="component_85___1_ek4"  >
+
+							<div id="group_1719_ek4"  >
+								<div id="rectangle_1357_ek4"  ></div>
+								<img src="skins/path_786_ek4.png" id="path_786_ek4" />
+
+							</div>
+
+							<div id="group_1720_ek4"  >
+								<div id="rectangle_1358_ek4"  ></div>
+								<img src="skins/path_787_ek4.png" id="path_787_ek4" />
+
+							</div>
+
+							<div id="group_1721_ek4"  >
+								<div id="rectangle_1359_ek4"  ></div>
+								<img src="skins/injection_ek4.png" id="injection_ek4" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198_ek4"  ></div>
+
+				</div>
+
+				<div id="__ek5"  >
+					<div id="rectangle_1360_ek5"  ></div>
+
+					<div id="component_86___1_ek5"  >
+						<div id="rectangle_7_ek5"  ></div>
+						<div id="_906" >
+							906
+						</div>
+
+					</div>
+
+					<div id="component_87___1_ek5"  >
+						<div id="patient__93242_ek4" >
+							Patient: 93242
+						</div>
+						<div id="male__old_ek4" >
+							Male, Old
+						</div>
+
+						<div id="component_85___1_ek5"  >
+
+							<div id="group_1719_ek5"  >
+								<div id="rectangle_1357_ek5"  ></div>
+								<img src="skins/path_786_ek5.png" id="path_786_ek5" />
+
+							</div>
+
+							<div id="group_1720_ek5"  >
+								<div id="rectangle_1358_ek5"  ></div>
+								<img src="skins/path_787_ek5.png" id="path_787_ek5" />
+
+							</div>
+
+							<div id="group_1721_ek5"  >
+								<div id="rectangle_1359_ek5"  ></div>
+								<img src="skins/injection_ek5.png" id="injection_ek5" />
+
+							</div>
+
+						</div>
+
+					</div>
+					<div id="rectangle_1198_ek5"  ></div>
+
+				</div>
+
+			</div>
+
+			<div id="group_1724"  >
+				<div id="rectangle_1361"  ></div>
+				<div id="patient_changed_in_the_901" >
+					Patient changed in the 901
+				</div>
+
+				<div id="group_1723"  >
+					<div id="rectangle_6"  ></div>
+					<div id="okay" onClick="loadNextPatient()">
+						Okay
+					</div>
+
+				</div>
+				<div id="__p__closing_old_patient_records_and_starting_new_patient_charting_" >
+					Closing old patient records and starting new patient charting 
+				</div>
+				<div id="__p__old_patient_charting_summary_is_sent_to_the_linked_email_id" >
+					Old patient charting summary is sent to the linked email id
+				</div>
+
+			</div>
+
+		</div>
+		</form>
+	</body>
+</html>
